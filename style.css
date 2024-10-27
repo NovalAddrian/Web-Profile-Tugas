@@ -1,0 +1,82 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+#education {
+    background-color: #e2edff;
+}
+section {
+    padding-top: 5rem;
+}
+
+#contact {
+    padding-top: 4rem;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p span:before {
+    content: '';
+    animation: bergerak infinite 8s ease;
+    transform: translate(-50%);
+    
+}
+
+@keyframes bergerak {
+    0% {
+        content: 'Welcome!';
+    }
+    50% {
+        content: 'I am an informatics student.';
+    }
+    100% {
+        content: 'Nice to meet you!';
+    }
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transisi animasi */
+  }
+  
+  .card:hover {
+    transform: scale(1.05) ; /* Membesarkan card saat di-hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+  }
+#about p {
+    text-align: justify;
+}
+.home:hover {
+    opacity: 0.5;
+}
+.about:hover {
+    opacity: 0.5;
+}
+.educationnav:hover {
+    opacity: 0.5;
+}
+.contactnav:hover {
+    opacity: 0.5;
+}
+.home:active {
+    opacity: 0.2;
+}
+.about:active {
+    opacity: 0.2;
+}
+.educationnav:active {
+    opacity: 0.2;
+}
+.contactnav:active {
+    opacity: 0.2;
+}
+
+.jumbotron h1 {
+    color: #006699;
+}
+.jumbotron span{
+    color: #666666;
+}
+#education h2{
+    color: #006699;
+}
